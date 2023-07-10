@@ -1,0 +1,202 @@
+@media only screen and (max-width: 1080px) and (min-width: 310px) {
+    .backgroundNav {
+        background-color: transparent;
+    }
+
+    header{
+        height: auto;
+    }
+
+    .logo {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img {
+        padding: 10px;
+        width: 80px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    .burger {
+        display: flex;
+    }
+
+    .navBar{
+        flex-direction: column;
+        /* justify-items: center; */
+        height: 280px;
+        /* align-items: center; */
+        transition: all 0.8s ease-out;
+    }
+
+    .navlist{
+    
+        flex-direction: column;
+    }
+
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-nav-resp {
+        display: none;
+    }
+    #our_expertise {
+        justify-content: center;
+        flex-flow: column wrap;
+        padding: 9px 0.5px;
+        margin: 10px 0px;
+    }
+    .our_expertise {
+        width: 90%;
+        height: 40%;
+        padding: 10px 0;
+    }
+    .our_expertise img {
+        width: 80%;
+        height: 30%;
+      
+    }
+    .about_us_content {
+        text-align: left;
+        width: 90vw;
+        color: rgb(78, 75, 75);
+        letter-spacing: 1.5px;
+        padding: 10px;
+        padding: 5px;
+    }
+
+    .contact_form {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .input_area {
+        width: 95%;
+    }
+    .form-btn {
+        margin: 20px 17px;
+        width: 90%;
+        justify-content: center;
+    }
+    .reach_us_details {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .social_media {
+        margin: 0 0 30px 0;
+    }
+    .reach_us_details_content {
+        width: 90%;
+        height: 10%;
+        margin: 20px;
+        padding: 10px;
+    }
+    .contact_us {
+        height: auto;
+        margin: 20px 0;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .textSmall {
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(27 12 12);
+        font-family: 'Jaldi', sans-serif;
+        line-height: 30px;
+        text-align: center;
+        margin: 1px;
+        letter-spacing: 1.5px;
+    }
+    .backgroundNav {
+        background-color: transparent;
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img {
+        padding: 10px;
+        width: 80px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    .burger {
+        display: flex;
+    }
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-nav-resp {
+        display: none;
+    }
+    #our_expertise {
+        justify-content: center;
+        flex-flow: column wrap;
+        padding: 9px 0.5px;
+        margin: 10px 0px;
+    }
+    .our_expertise {
+        width: 90%;
+        height: 40%;
+        padding: 10px 0;
+    }
+    .our_expertise img {
+        width: 80%;
+        height: 30%;
+    }
+    .about_us_content {
+        text-align: left;
+        width: 80vw;
+        color: rgb(78, 75, 75);
+        letter-spacing: 1.5px;
+        padding: 10px;
+        padding: 5px;
+    }
+    .input_area {
+        width: 95%;
+        padding:9px;
+    }
+    .form-btn {
+        margin: 20px 17px;
+        width: 90%;
+        justify-content: center;
+    }
+    .reach_us_details {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .social_media {
+        margin: 0 0 30px 0;
+    }
+    .contact_us {
+        height: auto;
+        margin: 20px 0;
+        padding: 20px;
+    }
+    .contact_us_and_footer_headings {
+        padding: 10px;
+        font-size: 40px;
+        line-height: 28px;
+        font-weight: 700;
+        text-align: center;
+        justify-items: center;
+        font-family: 'Marck Script', cursive;
+    }
+    .reach_us_details_content {
+        width: 90%;
+        height: 40%;
+        margin: 1px;
+        padding: 10px;
+    }
+}
